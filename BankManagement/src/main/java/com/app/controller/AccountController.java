@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.*;
 import com.app.entities.Account;
 import com.app.service.AccountService;
 
+
 @CrossOrigin(origins = "http://localhost:3000")
 @RestController
 @RequestMapping("/account")
